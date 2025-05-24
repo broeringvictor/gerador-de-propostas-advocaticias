@@ -1,25 +1,69 @@
-## Propostas Advocaticias
+# Propostas Advocaticias
 
-Gerador de **propostas de honorários advocatícios** escrito em .NET 9 que combina modelos DOCX preformatados, dados de clientes e serviços jurídicos para produzir documentos prontos para envio — tudo em poucos segundos e de forma totalmente containerizada.
+.NET 9 · C# 13 · Docker · **Licença MIT**
 
-### ✨ Principais recursos
-- **Template-first**: usa um arquivo-modelo DOCX (`Assets/Model/ModelDocx.docx`) e realiza *placeholder replacement* via **DocumentFormat.OpenXml**, mantendo formatação, cabeçalhos e rodapés intactos.  
-- **Catálogo de serviços**: carrega áreas do Direito e respectivos serviços a partir de JSON (`Assets/Engagement`) para montar propostas modulares.  
-- **Cálculo automático de desconto**: aplica percentual à vista e exibe valor final formatado em `pt-BR`.  
-- **CLI simples**: coleta dados do cliente no console e gera o arquivo em `Assets/Output/Proposta_<Cliente>_<timestamp>.docx`.  
-- **Cross-platform & Dev-friendly**: código C# 13, `dotnet 9.0`, pronto para rodar em Windows, Linux e macOS.  
-- **Docker support**: `Dockerfile` multi-stage (SDK → runtime) gera imagens enxutas; basta `docker run -it propostasadvocaticias`.
+Gerador automatizado de **propostas de honorários advocatícios**: combine um modelo DOCX, dados de cliente e serviços jurídicos definidos em JSON e receba um documento pronto para envio em poucos segundos.
 
-### 🚀 Como rodar
+---
+
+## ✨ Principais Funcionalidades
+
+| Funcionalidade           | Descrição                                                                                                                             |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Template Word**        | Substituição de *placeholders* no modelo DOCX (`Assets/Model/ModelDocx.docx`) via **DocumentFormat.OpenXml**, preservando formatação. |
+| **Catálogo de serviços** | Áreas do Direito e serviços lidos de arquivos JSON em `Assets/Engagement`; basta criar ou editar seguindo o mesmo esquema.            |
+| **Cálculo de valores**   | Aplica descontos percentuais à vista e formata valores em `pt‑BR`.                                                                    |
+| **CLI simplificado**     | Coleta dados do cliente e gera `Proposta_<Cliente>_<timestamp>.docx` em `Assets/Output`.                                              |
+| **Cross‑platform**       | Código .NET 9 roda em Windows, Linux e macOS, local ou em container.                                                                  |
+| **Docker ready**         | *Dockerfile* multi‑stage gera imagem enxuta: `docker run -it propostasadvocaticias`.                                                  |
+
+---
+
+## 🏗️ Visão da Arquitetura
+
+| Camada      | Stack                  | Responsabilidade                         |
+| ----------- | ---------------------- | ---------------------------------------- |
+| CLI         | .NET 9                 | Entrada de dados e orquestração do fluxo |
+| Engine DOCX | DocumentFormat.OpenXml | Substituição de variáveis no modelo      |
+| Dados       | JSON                   | Definição de áreas do Direito e serviços |
+| Container   | Docker                 | Build multi‑stage e execução isolada     |
+
+---
+
+## 🚀 Primeiros Passos
+
+### Pré‑requisitos
+
+| Ferramenta        | Versão mínima |
+| ----------------- | ------------- |
+| .NET SDK          | 9.0.\*        |
+| Docker (opcional) | 24+           |
+
+### Instalação e execução
 
 ```bash
-# 1. Clonar
+# Clonar o repositório
 git clone https://github.com/<usuario>/PropostasAdvocaticias.git
 cd PropostasAdvocaticias
 
-# 2. Executar localmente
-dotnet run -c Release --project PropostasAdvocaticias
+# Rodar localmente
+ dotnet run -c Release --project PropostasAdvocaticias
 
-# 3. Via Docker
-docker build -t propostasadvocaticias -f PropostasAdvocaticias/Dockerfile .
-docker run --rm -it propostasadvocaticias
+# Rodar em Docker
+ docker build -t propostasadvocaticias -f PropostasAdvocaticias/Dockerfile .
+ docker run --rm -it propostasadvocaticias
+```
+
+---
+
+## 🔧 Decisões Técnicas
+
+* **OpenXml**: manipula DOCX sem dependências Office/COM.
+* **JSON**: permite adicionar novos serviços sem recompilar.
+* **Docker multi‑stage**: builds reprodutíveis e portáveis.
+
+---
+
+## 📜 Licença
+
+MIT — consulte o arquivo `LICENSE`.
