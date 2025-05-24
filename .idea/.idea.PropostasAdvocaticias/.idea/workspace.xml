@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfdbaf8-96c4-47f2-8e57-3d381f857300" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ebfdbaf8-96c4-47f2-8e57-3d381f857300" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +129,7 @@
       <workItem from="1748032368740" duration="1777000" />
       <workItem from="1748034170010" duration="19274000" />
       <workItem from="1748108676214" duration="3653000" />
-      <workItem from="1748115376090" duration="4440000" />
+      <workItem from="1748115376090" duration="5028000" />
     </task>
     <task id="LOCAL-00001" summary="Criando o projeto">
       <option name="closed" value="true" />
@@ -157,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748118696337</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="att">
+      <option name="closed" value="true" />
+      <created>1748120341931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748120341931</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +187,8 @@
     <MESSAGE value="Criando o projeto" />
     <MESSAGE value="Estruturação do projeto" />
     <MESSAGE value="Versão funcional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Versão funcional" />
+    <MESSAGE value="att" />
+    <option name="LAST_COMMIT_MESSAGE" value="att" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
