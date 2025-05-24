@@ -9,11 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ebfdbaf8-96c4-47f2-8e57-3d381f857300" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Assets/Model/ModelDocx.docx" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Assets/Model/ModelDocx.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/UseCases/Client/SetClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/UseCases/Client/SetClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Infrastructure/UseCases/Docx/DocxService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Infrastructure/UseCases/Docx/DocxService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Menu/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Menu/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/PropostasAdvocaticias.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/PropostasAdvocaticias.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.PropostasAdvocaticias.executor": "Run",
+    ".NET Project.PropostasAdvocaticias.executor": "Debug",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ATTACH_DIALOG_SELECTED_CONTAINER": "propostasadvocaticias",
     "Docker.PropostasAdvocaticias/Dockerfile.executor": "Run",
@@ -76,13 +71,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.PropostasAdvocaticias/Dockerfile">
+  <component name="RunManager" selected=".NET Project.PropostasAdvocaticias">
     <configuration name="PropostasAdvocaticias" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/PropostasAdvocaticias/bin/Debug/net9.0/PropostasAdvocaticias" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PropostasAdvocaticias/bin/Debug/net9.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="1" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
       <option name="PTY_MODE" value="Auto" />
@@ -105,7 +100,9 @@
         <settings>
           <option name="imageTag" value="propostasadvocaticias" />
           <option name="containerName" value="propostasadvocaticias" />
-          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="contextFolderPath" value="." />
+          <option name="entrypoint" value="dotnet" />
+          <option name="commandLineOptions" value="-it" />
           <option name="sourceFilePath" value="PropostasAdvocaticias/Dockerfile" />
         </settings>
       </deployment>
@@ -134,7 +131,7 @@
       <workItem from="1748032368740" duration="1777000" />
       <workItem from="1748034170010" duration="19274000" />
       <workItem from="1748108676214" duration="3653000" />
-      <workItem from="1748115376090" duration="3247000" />
+      <workItem from="1748115376090" duration="4440000" />
     </task>
     <task id="LOCAL-00001" summary="Criando o projeto">
       <option name="closed" value="true" />
@@ -152,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748115292717</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Versão funcional">
+      <option name="closed" value="true" />
+      <created>1748118696337</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748118696337</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +180,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Criando o projeto" />
     <MESSAGE value="Estruturação do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estruturação do projeto" />
+    <MESSAGE value="Versão funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versão funcional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
