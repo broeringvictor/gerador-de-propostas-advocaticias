@@ -8,28 +8,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebfdbaf8-96c4-47f2-8e57-3d381f857300" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/Client.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Menu/Menu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/PropostasAdvocaticias.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Assets/Engagement/DireitoFamílias.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Assets/Model/ModelDocx.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/Engagement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/LawArea.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/UseCases/Client/SetClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Infrastructure/UseCases/Docx/DocxService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Infrastructure/UseCases/Engagement/SetEngagement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Menu/HandleMenuEngagements.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/dictionaries/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Menu/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Menu/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/PropostasAdvocaticias.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/PropostasAdvocaticias.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSON File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="SWEA" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -41,7 +55,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;.NET Project.PropostasAdvocaticias.executor&quot;: &quot;Run&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ATTACH_DIALOG_SELECTED_CONTAINER&quot;: &quot;propostasadvocaticias&quot;,
     &quot;Docker.PropostasAdvocaticias/Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -52,15 +68,15 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys_rider&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Docker.PropostasAdvocaticias/Dockerfile">
+  <component name="RunManager" selected=".NET Project.PropostasAdvocaticias">
     <configuration name="PropostasAdvocaticias" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/PropostasAdvocaticias/bin/Debug/net9.0/PropostasAdvocaticias" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PropostasAdvocaticias/bin/Debug/net9.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
@@ -75,7 +91,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net9.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -99,6 +115,10 @@
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue=".NET Project.PropostasAdvocaticias" />
+      <item itemvalue="Docker.PropostasAdvocaticias/Dockerfile" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -108,16 +128,40 @@
       <option name="presentableId" value="Default" />
       <updated>1748032367481</updated>
       <workItem from="1748032368740" duration="1777000" />
-      <workItem from="1748034170010" duration="663000" />
+      <workItem from="1748034170010" duration="19274000" />
+      <workItem from="1748108676214" duration="3630000" />
     </task>
+    <task id="LOCAL-00001" summary="Criando o projeto">
+      <option name="closed" value="true" />
+      <created>1748034858011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748034858011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Criando o projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando o projeto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

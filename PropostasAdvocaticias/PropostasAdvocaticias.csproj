@@ -13,11 +13,16 @@
         <Link>.dockerignore</Link>
       </Content>
     </ItemGroup>
+    <ItemGroup>
+        <Content Include="Assets/Engagement/**/*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
 
     <ItemGroup>
-      <Folder Include="Assets\" />
-      <Folder Include="Domain\UseCases\Client\" />
-      <Folder Include="Infrastructure\" />
+      <PackageReference Include="DocX" Version="4.0.25105.5786" />
+      <PackageReference Include="Xceed.Words.NET" Version="5.0.25228.6154" />
     </ItemGroup>
 
 </Project>
