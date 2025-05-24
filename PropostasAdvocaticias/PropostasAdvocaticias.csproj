@@ -18,11 +18,13 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
-
-
     <ItemGroup>
-      <PackageReference Include="DocX" Version="4.0.25105.5786" />
-      <PackageReference Include="Xceed.Words.NET" Version="5.0.25228.6154" />
+        <Content Include="Assets/Model/**/*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="DocumentFormat.OpenXml" Version="3.3.0" />
     </ItemGroup>
 
 </Project>

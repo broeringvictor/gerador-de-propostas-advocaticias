@@ -6,7 +6,7 @@ namespace PropostasAdvocaticias.Domain.UseCases.Client
 {
     public static class SetClient
     {
-        public static NewClient()
+        public static Entities.Client NewClient()  // Corrigido: adicionado o tipo de retorno
         {
             Console.Write("Nome completo: ");
             string fullName = Console.ReadLine()!;

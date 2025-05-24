@@ -8,19 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebfdbaf8-96c4-47f2-8e57-3d381f857300" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Assets/Engagement/DireitoFamílias.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Assets/Model/ModelDocx.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/Engagement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/LawArea.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/UseCases/Client/SetClient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Infrastructure/UseCases/Docx/DocxService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Infrastructure/UseCases/Engagement/SetEngagement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Menu/HandleMenuEngagements.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PropostasAdvocaticias/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Assets/Model/ModelDocx.docx" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Assets/Model/ModelDocx.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/UseCases/Client/SetClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Domain/UseCases/Client/SetClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Infrastructure/UseCases/Docx/DocxService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Infrastructure/UseCases/Docx/DocxService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Menu/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Menu/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropostasAdvocaticias/PropostasAdvocaticias.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PropostasAdvocaticias/PropostasAdvocaticias.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PropostasAdvocaticias/Assets/Engagement/DireitoFamílias.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/Engagement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PropostasAdvocaticias/Domain/Entities/LawArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PropostasAdvocaticias/Domain/UseCases/Client/SetClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PropostasAdvocaticias/Infrastructure/UseCases/Docx/DocxService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PropostasAdvocaticias/Infrastructure/UseCases/Engagement/SetEngagement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PropostasAdvocaticias/Menu/HandleMenuEngagements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PropostasAdvocaticias/Menu/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PropostasAdvocaticias/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -53,26 +57,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.PropostasAdvocaticias.executor&quot;: &quot;Run&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ATTACH_DIALOG_SELECTED_CONTAINER&quot;: &quot;propostasadvocaticias&quot;,
-    &quot;Docker.PropostasAdvocaticias/Dockerfile.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys_rider&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.PropostasAdvocaticias.executor": "Run",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ATTACH_DIALOG_SELECTED_CONTAINER": "propostasadvocaticias",
+    "Docker.PropostasAdvocaticias/Dockerfile.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys_rider",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected=".NET Project.PropostasAdvocaticias">
+}]]></component>
+  <component name="RunManager" selected="Docker.PropostasAdvocaticias/Dockerfile">
     <configuration name="PropostasAdvocaticias" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/PropostasAdvocaticias/bin/Debug/net9.0/PropostasAdvocaticias" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -129,7 +133,8 @@
       <updated>1748032367481</updated>
       <workItem from="1748032368740" duration="1777000" />
       <workItem from="1748034170010" duration="19274000" />
-      <workItem from="1748108676214" duration="3630000" />
+      <workItem from="1748108676214" duration="3653000" />
+      <workItem from="1748115376090" duration="3247000" />
     </task>
     <task id="LOCAL-00001" summary="Criando o projeto">
       <option name="closed" value="true" />
@@ -139,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748034858011</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Estruturação do projeto">
+      <option name="closed" value="true" />
+      <created>1748115292717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748115292717</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +174,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Criando o projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando o projeto" />
+    <MESSAGE value="Estruturação do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estruturação do projeto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

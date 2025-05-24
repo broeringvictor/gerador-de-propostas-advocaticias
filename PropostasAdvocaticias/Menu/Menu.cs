@@ -24,6 +24,7 @@ public static class Menu
         Console.ReadKey();
 
         var newClient = SetClient.NewClient();
-        DocxService.CreateDocx(escolhidas, client);
+        DocxService.CreateDocx(escolhidas, newClient );
+        Console.WriteLine("Proposta gerada com sucesso!");
     }
 }
