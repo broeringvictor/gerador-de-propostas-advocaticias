@@ -59,7 +59,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -129,7 +129,7 @@
       <workItem from="1748032368740" duration="1777000" />
       <workItem from="1748034170010" duration="19274000" />
       <workItem from="1748108676214" duration="3653000" />
-      <workItem from="1748115376090" duration="5028000" />
+      <workItem from="1748115376090" duration="5341000" />
     </task>
     <task id="LOCAL-00001" summary="Criando o projeto">
       <option name="closed" value="true" />
